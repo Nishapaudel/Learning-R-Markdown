@@ -1,0 +1,21 @@
+---
+title: "A templete document"
+author: "Nisha Paudel"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: simplex
+    toc: true
+    toc_depth: 2
+    toc_float: true
+vignette: >
+  %\VignetteIndexEntry{Create Awesome HTML Table with knitr::kable and kableExtra}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
